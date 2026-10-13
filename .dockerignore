@@ -1,0 +1,13 @@
+**/.git
+**/.env
+**/node_modules
+**/venv
+**/__pycache__
+**/dist
+**/.vite
+backend/uploads/*
+backend/chunk_results/*
+backend/settings.json
+volumes/
+docs/
+*.md

@@ -1,0 +1,27 @@
+# 环境变量与密钥
+.env
+settings.json
+
+# Python
+__pycache__/
+*.pyc
+backend/venv/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# 运行时产物
+backend/uploads/*
+backend/chunk_results/*
+backend/static/
+
+# Docker 持久化
+volumes/
+
+# 构建缓存
+*.tsbuildinfo
+
+# 系统文件
+.DS_Store
+*.swp
